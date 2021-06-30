@@ -1,7 +1,7 @@
 /* Style the sidebar - fixed full height */
 .sidebar {
     height: 100%;
-    width: 30%;
+    width: 24%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -19,6 +19,7 @@
     color: #edfffd;
     display: block;
     border-radius: 24px;
+    margin: 8px;
   }
   
   /* Style links on mouse-over */
@@ -32,7 +33,7 @@
 
   /* Style the main content */
   .main {
-    margin-left: 30%; /* Same as the width of the sidenav */
+    margin-left: 24%; /* Same as the width of the sidenav */
     padding: 0px 10px;
   }
   
