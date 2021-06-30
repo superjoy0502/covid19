@@ -1,7 +1,7 @@
 /* Style the sidebar - fixed full height */
 .sidebar {
     height: 100%;
-    width: 160px;
+    width: 10%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -31,7 +31,7 @@
 
   /* Style the main content */
   .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 10%; /* Same as the width of the sidenav */
     padding: 0px 10px;
   }
   

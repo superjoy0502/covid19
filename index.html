@@ -31,12 +31,11 @@
         <script>
             let links = document.getElementsByTagName("a");
             let path = window.location.pathname;
-            let page = path.split("/").pop();
-            console.log(page);
+            console.log(path);
 
             for (let i = 0; i < links.length; i++) { 
                 console.log(links[i].href)
-                if (links[i].href === page) {
+                if (links[i].href === path) {
                     links[i].classList.add("currentLink");
                 }
             }
