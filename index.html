@@ -28,5 +28,19 @@
             <img src="img/world_map.svg" alt="World Map" width="500px">
         </div>
 
+        <script>
+            let links = document.getElementsByTagName("a");
+            let path = window.location.pathname;
+            let page = path.split("/").pop();
+            console.log(page);
+
+            for (let i = 0; i < links.length; i++) { 
+                console.log(links[i])
+                if (links[i].href === page) {
+                    links[i].classList.add("currentLink");
+                }
+            }
+        </script>
+
     </body>
 </html>

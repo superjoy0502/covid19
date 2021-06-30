@@ -16,15 +16,19 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #30bcd0;
+    color: #edfffd;
     display: block;
   }
   
   /* Style links on mouse-over */
-  .sidebar a:hover {
+  /* .sidebar a:hover {
     color: #edfffd;
-  }
+  } */
   
+  .currentLink {
+      background-color: #125873;
+  }
+
   /* Style the main content */
   .main {
     margin-left: 160px; /* Same as the width of the sidenav */
